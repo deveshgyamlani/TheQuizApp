@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, rgba(255, 99, 132, 1) 0%, rgba(54, 162, 235, 1) 100%);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 640px;
+  margin: auto;
+  margin-top: 150px;
+  background: #ffffff;
+  color: #5A3E36;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  padding: 40px 50px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container hr {
+  height: 2px;
+  border: none;
+  background: #E7A977;
+}
+
+.container h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.container ul li {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding-left: 15px;
+  border: 2px solid #CCCCCC;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.container ul li:hover {
+  background-color: #F5F5F5;
+}
+
+.container button {
+  margin: auto;
+  width: 250px;
+  height: 45px;
+  background: #FF8C42;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.container button:hover {
+  background: #E6762B;
+}
+
+.container .index {
+  margin: auto;
+  font-size: 18px;
+  color: #666666;
+}
+
+.container .correct {
+  background: #4CAF50;
+  border-color: #80CFA9;
+}
+
+.container .wrong {
+  background: #F44336;
+  border-color: #F8BBD0;
+}
